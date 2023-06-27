@@ -33,3 +33,12 @@ Overall, my drive for learning and acquiring new knowledge helps me become a mor
     	}
     }
 ```
+## Education
+
+- Academy: Donbass State Engineering Academy
+
+## Language
+
+- Ukrainian
+- Russian
+- English(A2)
