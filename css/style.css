@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F6F7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main {
+    flex: 1 1 auto;
+    margin-bottom: 16px;
+}
+
+[class*='__container'] {
+    max-width: 985px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-border {
+    border-radius: 16px;
+    border: 1px solid#DDE3EB;
+    background-color:#FFF;
+}
+
+.section__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    color: #99A3B2;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DDE3EB;
+}
+
+
+.header {
+    padding-top: 64px;
+    margin-bottom: 16px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.header__avatar {
+    margin-right: 24px;
+}
+
+.header__avatar img{
+    width: 125px;
+    height: 125px;
+    border-radius: 8px;
+}
+
+.header__person-name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%; /* 48/32 */
+}
+
+.header__person-profession {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 133.333333%; /* 32/24 */
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.main__aside {
+    width: 100%;
+    background-color: transparent;
+}
+
+.main__content {
+    background-color: transparent;
+    flex: 1 0 65%;
+}
+
+.contacts, .skills, 
+.education, .language, 
+.about-me, .code-example {
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.contacts__title, .skills__title, 
+.education__title, .language__title, 
+.about-me__title {
+    margin-bottom: 25px;
+}
+
+.contacts__list, .language__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contacts__item-link:hover {
+    text-decoration: underline;
+}
+
+.contacts__item-img {
+    margin-right: 8px;
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skills__item, .language__item {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.about-me__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.about-me__text:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.language:last-child {
+    margin-bottom: 0;
+}
+
+.code-example code.hljs {
+    background: #fff;
+}
+
+.footer__inner {
+    border-radius: 16px 16px 0 0;
+    background-color: #fff;
+    border: 1px solid #DDE3EB;
+    padding: 24px;
+}
+
+.footer__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu-item--year {
+    font-weight: 700;
+}
