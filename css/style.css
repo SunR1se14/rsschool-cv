@@ -113,16 +113,16 @@ li {
     flex: 1 0 65%;
 }
 
-.contacts, .skills, .education {
+.contacts, .skills, .education, .language {
     padding: 24px;
     margin-bottom: 16px;
 }
 
-.contacts__title, .skills__title, .education__title {
+.contacts__title, .skills__title, .education__title, .language__title {
     margin-bottom: 25px;
 }
 
-.contacts__list {
+.contacts__list, .language__list {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -148,7 +148,8 @@ li {
     gap: 12px;
 }
 
-.skills__item {
+.skills__item, .language__item {
     list-style-type: circle;
     list-style-position: inside;
 }
+
