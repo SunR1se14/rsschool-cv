@@ -99,26 +99,30 @@ li {
 .main__container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 16px;
 }
 
 .main__aside {
     width: 100%;
-    background-color: #fff;
     background-color: transparent;
 }
 
 .main__content {
-    background-color: #fff;
+    background-color: transparent;
     flex: 1 0 65%;
 }
 
-.contacts, .skills, .education, .language {
+.contacts, .skills, 
+.education, .language, 
+.about-me, .code-example {
     padding: 24px;
     margin-bottom: 16px;
 }
 
-.contacts__title, .skills__title, .education__title, .language__title {
+.contacts__title, .skills__title, 
+.education__title, .language__title, 
+.about-me__title {
     margin-bottom: 25px;
 }
 
@@ -153,3 +157,16 @@ li {
     list-style-position: inside;
 }
 
+.about-me__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.about-me__text:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.code-example code.hljs {
+    background: #fff;
+}

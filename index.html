@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/libs/atom-one-light.min.css">
     <link href="css/style.css" rel="stylesheet">
     <title>CV</title>
 </head>
@@ -77,10 +78,42 @@
                         </ul>
                     </section>
                 </div>
-                <div class="main__content"></div>
+                <div class="main__content">
+                    <section class="about-me section-border">
+                        <h3 class="about-me__title section__title">About Me</h3>
+                        <p class="about-me__text">
+                            I decided to switch to the IT field from a different profession because I see great opportunities for career and financial growth.
+                        </p>
+                        <p class="about-me__text">
+                            My goal is to create applications that not only meet the highest standards of quality but also provide the best user experience. To achieve this goal, I constantly strive to learn and discover new things, in order to stay up-to-date with the latest trends and technologies in my field.
+                        </p>
+                        <p class="about-me__text">
+                            Overall, my drive for learning and acquiring new knowledge helps me become a more effective and productive developer.
+                        </p>
+                    </section>
+                    <section class="code-example section-border">
+                        <h3 class="code-example__title section__title">Code Example</h3>
+<pre>
+    <code >
+        function getMiddle(s) {
+            let mid = Math.floor(s.length / 2)
+                            
+            if (s.length % 2 === 0) {
+                return s.slice(mid - 1, mid + 1)
+            } else {
+                return s.slice(mid, mid + 1)
+            }
+        }
+    </code>
+</pre>
+                    </section>
+                </div>
             </div>
         </main>
         <footer class="footer"></footer>
     </div>
+
+    <script src="./libs/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
