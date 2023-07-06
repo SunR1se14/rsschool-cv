@@ -37,6 +37,7 @@ li {
 
 .main {
     flex: 1 1 auto;
+    margin-bottom: 16px;
 }
 
 [class*='__container'] {
@@ -167,6 +168,27 @@ li {
     margin-bottom: 12px;
 }
 
+.language:last-child {
+    margin-bottom: 0;
+}
+
 .code-example code.hljs {
     background: #fff;
+}
+
+.footer__inner {
+    border-radius: 16px 16px 0 0;
+    background-color: #fff;
+    border: 1px solid #DDE3EB;
+    padding: 24px;
+}
+
+.footer__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu-item--year {
+    font-weight: 700;
 }
