@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/libs/atom-one-light.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container ">
+                <div class="header__inner section-border">
+                    <div class="header__avatar">
+                        <img src="./assets/img/joker.png" alt="Avatar" width="125" height="125">
+                    </div>
+                    <div class="header__person">
+                        <h1 class="header__person-name">Arthur Kosyak</h1>
+                        <h2 class="header__person-profession">Frontend Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container ">
+                <div class="main__aside">
+                    <section class="contacts section-border">
+                        <h3 class="contacts__title section__title">Contacts</h3>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <div class="contacts__item-img">
+                                    <img src="./assets//icons/email.svg" alt="Email icons" width="20" height="20">
+                                </div>
+                                <a class="contacts__item-link" href="mailto:rivey322@gmail.com">rivey322@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__item-img">
+                                    <img src="./assets//icons/github.svg" alt="Github icons" width="20" height="20">
+                                </div>
+                                <a class="contacts__item-link" href="https://github.com/SunR1se14" target="_blank">SunR1se14</a>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__item-img">
+                                    <img src="./assets//icons/telegram.svg" alt="Telegram icons" width="20" height="20">
+                                </div>
+                                <a class="contacts__item-link" href="https://t.me/parad1se_14" target="_blank">@parad1se_14</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills section-border">
+                        <h3 class="skills__title section__title">Skills</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML5</li>
+                            <li class="skills__item">CSS3 / SASS</li>
+                            <li class="skills__item">JavaScript / ES6</li>
+                            <li class="skills__item">BEM</li>
+                            <li class="skills__item">Gulp</li>
+                            <li class="skills__item">Git</li>
+                            <li class="skills__item">Figma</li>
+                        </ul>
+                    </section>
+                    <section class="education section-border">
+                        <h3 class="education__title section__title">Education</h3>
+                        <ul class="education__lsit">
+                            <li class="education__item">Donbass State Engineering Academy</li>
+                        </ul>
+                    </section>
+                    <section class="language section-border">
+                        <h3 class="language__title section__title">Language</h3>
+                        <ul class="language__list">
+                            <li class="language__item">Ukrainian</li>
+                            <li class="language__item">Russian</li>
+                            <li class="language__item">English (A2)</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="main__content">
+                    <section class="about-me section-border">
+                        <h3 class="about-me__title section__title">About Me</h3>
+                        <p class="about-me__text">
+                            I decided to switch to the IT field from a different profession because I see great opportunities for career and financial growth.
+                        </p>
+                        <p class="about-me__text">
+                            My goal is to create applications that not only meet the highest standards of quality but also provide the best user experience. To achieve this goal, I constantly strive to learn and discover new things, in order to stay up-to-date with the latest trends and technologies in my field.
+                        </p>
+                        <p class="about-me__text">
+                            Overall, my drive for learning and acquiring new knowledge helps me become a more effective and productive developer.
+                        </p>
+                    </section>
+                    <section class="code-example section-border">
+                        <h3 class="code-example__title section__title">Code Example</h3>
+<pre>
+    <code >
+        function getMiddle(s) {
+            let mid = Math.floor(s.length / 2)
+                            
+            if (s.length % 2 === 0) {
+                return s.slice(mid - 1, mid + 1)
+            } else {
+                return s.slice(mid, mid + 1)
+            }
+        }
+    </code>
+</pre>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__inner">
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="https://github.com/SunR1se14" target="_blank">
+                                    <img src="./assets/icons/github.svg" alt="GitHub icon" width="100" height="100">
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="https://rs.school/js/" target="_blank">
+                                    <img src="./assets/icons/rs_school_js.svg" alt="RsSchool icon" width="100" height="100">
+                                </a>
+                            </li>
+                            <li class="footer__menu-item footer__menu-item--year">July 2023</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./libs/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
