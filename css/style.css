@@ -113,12 +113,12 @@ li {
     flex: 1 0 65%;
 }
 
-.contacts {
+.contacts, .skills, .education {
     padding: 24px;
     margin-bottom: 16px;
 }
 
-.contacts__title {
+.contacts__title, .skills__title, .education__title {
     margin-bottom: 25px;
 }
 
@@ -140,14 +140,6 @@ li {
 
 .contacts__item-img {
     margin-right: 8px;
-}
-
-.skills {
-    padding: 24px;
-}
-
-.skills__title {
-    margin-bottom: 25px;
 }
 
 .skills__list {
