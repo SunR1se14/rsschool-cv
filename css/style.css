@@ -115,6 +115,7 @@ li {
 
 .contacts {
     padding: 24px;
+    margin-bottom: 16px;
 }
 
 .contacts__title {
@@ -139,4 +140,23 @@ li {
 
 .contacts__item-img {
     margin-right: 8px;
+}
+
+.skills {
+    padding: 24px;
+}
+
+.skills__title {
+    margin-bottom: 25px;
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skills__item {
+    list-style-type: circle;
+    list-style-position: inside;
 }
